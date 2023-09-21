@@ -1,0 +1,9 @@
+com\mycompany\modelo\Produto.class
+com\mycompany\sistema_vendas_2_0\Sistema_Vendas_2_0.class
+com\mycompany\visao\VisaoComputador.class
+com\mycompany\visao\VisaoVideoGame.class
+com\mycompany\modelo\Computador.class
+com\mycompany\outros\Constantes.class
+com\mycompany\visao\Visao_menu.class
+com\mycompany\modelo\VideoGame.class
+com\mycompany\controle\Controle_Sistema.class
