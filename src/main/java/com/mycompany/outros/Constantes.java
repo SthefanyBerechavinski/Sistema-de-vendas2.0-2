@@ -17,4 +17,8 @@ public class Constantes {
     public static final int CATEGORIA_VIDEO_GAME = 1;
     public static final int CATEGORIA_COMPUTADOR = 2;
     
+    public static final String REMOVER_SIM = "s";
+    
+    public static final String MSG_PROD_INEXISTENTE = "Produto inexistente!";
+    
 }

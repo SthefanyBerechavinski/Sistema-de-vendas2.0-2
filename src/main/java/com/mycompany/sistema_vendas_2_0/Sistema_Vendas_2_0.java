@@ -14,7 +14,7 @@ import com.mycompany.visao.Visao_menu;
  */
 public class Sistema_Vendas_2_0 {
 
-    public static void main(String[] args) {
+    public static void main(String[] args){
         int opcaoMenu;
         
         while(true){
@@ -26,7 +26,10 @@ public class Sistema_Vendas_2_0 {
                 Controle_Sistema.alterar(Visao_menu.menuAlteracaoProduto());
             }else if(opcaoMenu == Constantes.LISTAR){
                 Controle_Sistema.listar(Controle_Sistema.produtos);
+            }else if(opcaoMenu== Constantes.REMOVER){
+                Controle_Sistema.remover(Visao_menu.menuRemocaoProduto());    
             }
+            
         }
     }
 }

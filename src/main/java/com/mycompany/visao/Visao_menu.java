@@ -26,7 +26,7 @@ public class Visao_menu {
         return opcaoMenu;
     }
     public static int menuEscolhaProduto(){
-        System.out.println("=============Cadastrar Produto=============");
+        System.out.println("=============CADASTRAR PRODUTO=============");
         System.out.println("Qual categoria de produto deseja cadastrar?");
         System.out.println("1 - Vídeo Game");
         System.out.println("2 - Computador");
@@ -75,7 +75,7 @@ public class Visao_menu {
     }
     
     public static int menuRemocaoProduto(){
-        System.out.println("=============Remover Produto=============");
+        System.out.println("=============REMOVER PRODUTO=============");
         System.out.println("Qual produto deseja remover?");
         
         for(int i=0; i<Controle_Sistema.produtos.size(); i++){
